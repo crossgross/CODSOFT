@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background color ="black">
+    <style>#loader{background:#000 url(assets/img/loader.gif) 
+        no-repeat center;background-size:15%;width:100%;height:100vh;position:fixed;z-index:10000}
+    
+        </style><div id=loader></div><script>window.addEventListener('load',function(){
+        let x= document.getElementById('loader');
+         x.style.display='none';
+     })</script>
+    <header class="header">
+        <nav class="navbar">
+            <img src="assets/img/logo.png" alt="Company Logo" class="logo">
+            <div class="logo">Mercedes</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="hamburger"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Mercedes</h1>
+        <p>Your ultimate destination for luxury cars. Discover our latest models</p>
+        <a href="#models" class="btn">Explore Models</a>
+    </section>
+
+    <section id="about-us" class="about-us">
+        <div class="container">
+            <div class="content">
+        <h2>About Us</h2>
+            <p>At Mercedes, we believe in pushing boundaries and redefining the driving experience. 
+                Our team of experts and visionaries work tirelessly to create vehicles that not only 
+                perform exceptionally but also exude luxury and sophistication.</p>
+            <p>Driven by a commitment to excellence, we have won numerous awards and accolades for 
+                our innovative designs and advanced technology. Our dedication to quality and 
+                customer satisfaction sets us apart, making us a preferred choice among discerning 
+                drivers worldwide.</p>
+            <p>Discover the art of automotive craftsmanship with Mercedes. 
+                Join us on this exhilarating journey, where every drive is an experience 
+                in luxury and performance.</p>
+        </div></div>
+    </section>
+
+    <section id="models" class="models">
+        <h2>Our Models</h2>
+        <div class="model-card">
+            <img src="assets/img/car1.png" alt="Car Model 1">
+            
+            <h3>Mercedes GLA</h3>
+            <p>The Mercedes GLA is a Subcompact Luxury SUV</p>
+                <div class="specs">
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li>Engine: 2.0L Turbo I4</li>
+                        <li>Horsepower: 221 bhp</li>
+                        <li>Top Speed: 210 km/h</li>
+                        <li>Price: ₹51.75 Lakh</li>
+                        <li>Torque: 350 Nm</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Standard sunroof</li>
+                        <li>MBUX infotainment system</li>
+                        <li>available all-wheel drive</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="model-card">
+            <img src="assets/img/car2.png" alt="Car Model 1">
+            
+            <h3>Mercedes GLB</h3>
+            <p>The Mercedes GLB is a Compact Luxury SUV</p>
+                <div class="specs">
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li>Engine: 2.0L Turbo I4</li>
+                        <li>Horsepower: 221 bhp</li>
+                        <li>Top Speed: 210 km/h</li>
+                        <li>Price: ₹54.80 Lakh</li>
+                        <li>Torque: 350 Nm</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>MBUX infotainment system</li>
+                        <li>3rd row seating available</li>
+                        <li>AMG performance line (optional)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="model-card">
+            <img src="assets/img/car3.png" alt="Car Model 1">
+            
+            <h3>Mercedes GLC</h3>
+            <p>The Mercedes GLC is a Compact Luxury SUV</p>
+                <div class="specs">
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li>Engine: 2.0L Turbo I4</li>
+                        <li>Horsepower: 255 bhp</li>
+                        <li>Top Speed: 240 km/h</li>
+                        <li>Price: ₹74.20 Lakh</li>
+                        <li>Torque: 400 Nm</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>MBUX infotainment system</li>
+                        <li>Spacious cargo area</li>
+                        <li>Agile handling</li>
+                        <li>Automatic Parking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="model-card">
+            <img src="assets/img/car4.png" alt="Car Model 2">
+            <h3>Mercedes GLE</h3>
+            <p>The Mercedes GLE is a Great Mid-Size Luxury SUV</p>
+                <div class="specs">
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li>Engine: 2.0L Turbo I4</li>
+                        <li>Horsepower: 269 bhp</li>
+                        <li>Top Speed: 230 km/h</li>
+                        <li>Price: ₹96.40 Lakhs</li>
+                        <li>Torque: 550 Nm</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Advanced driver-assistance features</li>
+                        <li>Air suspension</li>
+                        <li>Third-row seating (optional)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="model-card">
+            <img src="assets/img/car5.png" alt="Car Model 2">
+            <h3>Mercedes GLE coupé</h3>
+            <p>The Mercedes GLE coupé is a Great Mid-Size Luxury SUV (coupé)</p>
+                <div class="specs">
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li>Engine: 2.0L Turbo I4</li>
+                        <li>Horsepower: 430 bhp</li>
+                        <li>Top Speed: 250 km/h</li>
+                        <li>Price: ₹79.70 Lakh</li>
+                        <li>Torque: 560 Nm</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Sleek, sporty design</li>
+                        <li>all-wheel drive standard</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="model-card">
+            <img src="assets/img/car6.png" alt="Car Model 3">
+            <h3>Mercedes GLS</h3>
+            <p>The Mercedes GLS is a Amazing Full-Size Luxury SUV</p>
+                <div class="specs">
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li>Engine: 3.0L Turbo I6</li>
+                        <li>Horsepower: 367 bhp</li>
+                        <li>Top Speed: 250 km/h</li>
+                        <li>Price: ₹1.37 Cr</li>
+                        <li>Torque: 750 Nm</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Luxurious Interior</li>
+                        <li>Most spacious option</li>
+                        <li>Powerful towing capacity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="model-card">
+            <img src="assets/img/car7.png" alt="Car Model 3">
+            <h3>Mercedes Maybach GLS</h3>
+            <p>The Mercedes Maybach GLS is an Ultra Full-Size Luxury SUV</p>
+                <div class="specs">
+                    <h4>Specs:</h4>
+                    <ul>
+                        <li>Engine: 4.0L V8 Biturbo</li>
+                        <li>Horsepower: 550 bhp</li>
+                        <li>Top Speed: 300 km/h</li>
+                        <li>Price: ₹3.35 Cr</li>
+                        <li>Torque: 730 Nm</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li>Ultra-luxurious interior</li>
+                        <li>Highest level of comfort</li>
+                        <li>Powerful V8 Biturbo engine</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; Shivashish Gupta. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
