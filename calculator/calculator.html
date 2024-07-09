@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="theme-toggle-wrapper">
+            <label class="theme-toggle" id="theme-toggle">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </nav>
+    
+    <style>#loader{background:#000 url(assets/img/loader.gif) 
+        no-repeat center;background-size:15%;width:100%;height:100vh;position:fixed;z-index:10000}
+    
+        </style><div id=loader></div><script>window.addEventListener('load',function(){
+        let x= document.getElementById('loader');
+         x.style.display='none';
+     })</script>
+    <div class="container">
+        <div class="calculator">
+            <div id="display" class="display">0</div>
+            <div class="buttons">
+                <button class="btn" data-value="C">C</button>
+                <button class="btn" data-value="+/-">+/-</button>
+                <button class="btn" data-value="%">%</button>
+                <button class="btn operator" data-value="/">÷</button>
+
+                <button class="btn" data-value="7">7</button>
+                <button class="btn" data-value="8">8</button>
+                <button class="btn" data-value="9">9</button>
+                <button class="btn operator" data-value="*">×</button>
+
+                <button class="btn" data-value="4">4</button>
+                <button class="btn" data-value="5">5</button>
+                <button class="btn" data-value="6">6</button>
+                <button class="btn operator" data-value="-">−</button>
+
+                <button class="btn" data-value="1">1</button>
+                <button class="btn" data-value="2">2</button>
+                <button class="btn" data-value="3">3</button>
+                <button class="btn operator" data-value="+">+</button>
+
+                <button class="btn zero" data-value="0">0</button>
+                <button class="btn" data-value=".">.</button>
+                <button class="btn equals" data-value="=">=</button>
+            </div>
+        </div>
+        <div id="history" class="history">
+            <h2>History</h2>
+            <ul id="history-list"></ul>
+            <button class="history-toggle" id="history-toggle">History</button><br>
+            <button class="button clear-history" id="clear-history-button">Clear History</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
